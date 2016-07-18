@@ -2,7 +2,7 @@
 * @Author: liufeifei
 * @Date:   2016-07-16 11:45:10
 * @Last Modified by:   liufeifei
-* @Last Modified time: 2016-07-18 16:47:43
+* @Last Modified time: 2016-07-18 17:58:19
 * 总体说明：分为四种，第一种为单个选项选择，第二种为两个选项选择(两个选项之间独立存在)，第三种为年月日选择，第四种为年月日+小时分钟选择
 */
 
@@ -28,8 +28,8 @@ $('body').append('<style>'+
                 '.sel-con{background:white;}'+
                 '.sel-con .border{height:34px;border:solid 1px #fda626;border-width:1px 0;position:fixed;bottom:72px;left:0;right:0;pointer-events:none;}'+
                 '.sel-con .table{display:table;width:100%;table-layout:fixed;}'+
-                '.sel-con .cell{display:table-cell;vertical-align:middle;text-align:center;}'+
-                '.sel-con .scroll{height:180px;overflow:auto;box-sizing:border-box;padding:72px 0;}'+
+                '.sel-con .cell{display:table-cell;vertical-align:middle;text-align:center;overflow:hidden;}'+
+                '.sel-con .scroll{height:180px;overflow:auto;box-sizing:border-box;padding:72px 0;width:110%;padding-right:10%;}'+
                 '.sel-con .ele{font-size:16px;color:#b2b2b2;height:36px;line-height:36px;}'+
                 '</style>'+
                 '<div class="sel-boxs">'+
