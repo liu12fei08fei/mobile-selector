@@ -29,7 +29,8 @@ $('body').append('<style>'+
                 '.sel-con .border{height:34px;border:solid 1px #fda626;border-width:1px 0;position:fixed;bottom:72px;left:0;right:0;pointer-events:none;}'+
                 '.sel-con .table{display:table;width:100%;table-layout:fixed;}'+
                 '.sel-con .cell{display:table-cell;vertical-align:middle;text-align:center;overflow:hidden;}'+
-                '.sel-con .scroll{height:180px;overflow:auto;box-sizing:border-box;padding:72px 0;width:200%;padding-right:100%;}'+
+                '.sel-con .scroll{height:180px;overflow:auto;box-sizing:border-box;padding:0;width:200%;padding-right:100%;}'+
+                '.sel-con .scroll::before,.sel-con .scroll::after{content:'';display:block;height:72px;}'+
                 '.sel-con .ele{font-size:16px;color:#b2b2b2;height:36px;line-height:36px;}'+
                 '</style>'+
                 '<div class="sel-boxs">'+
